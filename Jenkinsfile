@@ -3,6 +3,9 @@ node {
         echo "Hello"
     }
     stage("stage 2") {
-        echo "World!"
+        echo "World"
+    }
+    stage("stage 3") {
+        echo "!"
     }
 }
